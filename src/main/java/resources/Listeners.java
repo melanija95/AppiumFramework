@@ -27,13 +27,13 @@ public class Listeners implements ITestListener  {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
 		
-		String name = result.getName();
-		try {
-			base.getScreenshot(name);
-		} catch (IOException e) {
+		//String name = result.getName();
+		//try {
+		//	base.getScreenshot(name);
+		//} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//	e.printStackTrace();
+		//}
 	}
 
 	@Override
